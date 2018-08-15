@@ -5,6 +5,11 @@ h1 {
   color: #0092D8;
   border-bottom: 13px solid #0092D8;
   font-weight: bold;
+  font-size: 36px;
+}
+h1 img{
+  height: 28px;
+  width: 30px;
 }
 span {
   color: #F6F9FC;
@@ -29,6 +34,27 @@ li {
   width: 65%;
   display: inline-block;
   float: left;
+  margin-top: 10px;
+  padding: 10px;
+
+
+}
+#favorites-view{
+  border: 2px solid #B8CCDF;
+  background-color: #EBF2F6;
+  margin-right: 2%;
+  width: 25%;
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+  padding: 25px;
+
+
+
+
+
+
+
 }
 #topic-form {
   width: 25%;
@@ -38,14 +64,19 @@ li {
   padding: 25px;
   margin-right: 2%;
   border: 2px solid #B8CCDF;
+  margin-top: 10px;
+}
+#contents{
+  border: 2px solid #B8CCDF;
+
 }
 .topic, #add-topic {
   background-color: #0092D8;
   color: white;
-  font-size: 24px;
-  border-radius: 8px;
+  font-size: 22px;
+  border-radius: 7px;
   margin: 0 3px;
-  padding: 5px 10px;
+  padding: 8px 13px;
 }
 
 #buttons-view {
@@ -53,6 +84,7 @@ li {
 }
 #topic-input {
   margin: 10px 0;
+  line-height: 20px;
   width: 100%;
 }
 
